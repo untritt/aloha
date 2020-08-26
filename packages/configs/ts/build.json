@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": ["DOM", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noLib": false,
+    "noEmitOnError": true,
+    "pretty": true,
+
+    "target": "ES6",
+
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": true
+  }
+}
