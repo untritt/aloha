@@ -1,0 +1,12 @@
+{
+  "extends": "@configs/ts/react.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "tsBuildInfoFile": "build/.tsbuildinfo"
+  },
+  "exclude": ["node_modules", "build", "**/*.tests.tsx?"],
+  "references": [
+    { "path": "../common/type-defs"}
+  ]
+}

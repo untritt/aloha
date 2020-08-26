@@ -1,0 +1,55 @@
+{
+  "name": "@themes/gatsby-theme-aloha",
+  "description": "Untritt Homepage",
+  "version": "0.2.0",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "private": true,
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "lint": "eslint --cache --ext .js,.jsx,.ts,.tsx src",
+    "lint:dump": "eslint --print-config ./.eslintrc.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@common/plugin": "*",
+    "@common/type-defs": "*",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/react-helmet": "^6.1.0",
+    "gatsby": "^2.24.47",
+    "gatsby-plugin-graphql-codegen": "^2.7.1",
+    "gatsby-plugin-graphql-loader": "^1.0.2",
+    "gatsby-plugin-offline": "^3.2.23",
+    "gatsby-plugin-react-helmet": "^3.3.10",
+    "gatsby-plugin-typescript": "^2.4.18",
+    "gatsby-plugin-typescript-checker": "^1.1.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@configs/eslint": "*",
+    "@configs/jest": "*",
+    "@testing-library/jest-dom": "^5.11.3",
+    "@testing-library/react": "^10.4.9",
+    "babel-preset-gatsby": "^0.5.5",
+    "react-test-renderer": "^16.13.1",
+    "typescript": "^3.9.7"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  }
+}
