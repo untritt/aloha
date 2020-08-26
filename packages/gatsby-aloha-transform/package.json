@@ -1,0 +1,36 @@
+{
+  "name": "@plugins/gatsby-aloha-transform",
+  "version": "0.2.0",
+  "description": "Gatsby transform plugin for aloha theme",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write \"**/*.{js,json}\"",
+    "lint": "eslint --cache --ext .js src",
+    "lint:dump": "eslint --print-config ./.eslintrc.json"
+  },
+  "dependencies": {
+    "@common/plugin": "*",
+    "gatsby-transformer-typescript-css-modules": "^1.0.14",
+    "lodash": "^4.17.20"
+  },
+  "perDependencies": {
+    "babel-jest": "^26.3.0"
+  },
+  "devDependencies": {
+    "@configs/eslint": "*",
+    "babel-preset-gatsby": "^0.5.5"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  }
+}

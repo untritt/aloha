@@ -1,0 +1,59 @@
+query MyQuery {
+  allSectionPage(sort: {fields: section___order, order: ASC}) {
+    nodes {
+      section {
+        name
+        order
+        page {
+          id
+          internal {
+            type
+          }
+        }
+        themeCss {
+          element
+          section
+        }
+      }
+      profile {
+        svg {
+          element
+          section
+        }
+        url
+        themeCss {
+          element
+          section
+        }
+        page {
+          ... on SectionPage {
+            id
+          }
+        }
+      }
+      internal {
+        type
+      }
+      id
+      header {
+        themeCss {
+          element
+          section
+        }
+        social {
+          svg {
+            element
+            section
+          }
+          page {
+            id
+          }
+          name
+        }
+        page {
+          id
+        }
+      }
+    }
+  }
+}
