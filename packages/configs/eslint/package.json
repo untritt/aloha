@@ -1,0 +1,16 @@
+{
+  "name": "@configs/eslint",
+  "version": "0.2.0",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "description": "Eslint configs.",
+  "private": true,
+  "files": ["*.js"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  },
+  "license": "0BSD"
+}
