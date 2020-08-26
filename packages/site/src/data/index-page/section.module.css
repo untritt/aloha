@@ -1,0 +1,15 @@
+.section {
+}
+
+.section_header {
+}
+.section_header:hover {
+}
+.section_header_active {
+}
+
+.section_header_title {
+}
+/* Use .markdown tag-name selector to style markdown  */
+.section__content * {
+}

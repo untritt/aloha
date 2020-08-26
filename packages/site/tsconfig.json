@@ -1,0 +1,14 @@
+{
+  "extends": "@configs/ts/react.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "tsBuildInfoFile": "build/.tsbuildinfo"
+  },
+  "exclude": ["node_modules", "build", "**/*.tests.tsx?"],
+  "references": [
+    { "path": "@themes/gatsby-theme-aloha" },
+    { "path": "@configs/eslint" },
+    { "path": "@configs/jest" }
+  ]
+}

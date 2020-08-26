@@ -1,0 +1,15 @@
+- Windows
+- Linux
+- VMware
+- Zabbix
+- ITIL
+- Powershell
+- VBA
+- SQL
+- Agile
+- Git
+- Javascript
+- HTML
+- CSS
+- Sketch
+- Photoshop

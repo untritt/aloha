@@ -1,0 +1,9 @@
+- environment compliance to business strategy
+- high availability and disaster recovery
+- common IT and business goals automation
+- project success management
+- agreements support
+- large corporate environment maintenance
+- service delivery issues
+- customer & user care
+- solution design

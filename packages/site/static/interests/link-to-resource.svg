@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="112px" height="32px" viewBox="0 0 112 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>profile/card/content/telegram/link</title>
+    <desc>Created with Sketch.</desc>
+    <g id="profile/card/content/telegram/link" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bg" fill="#2EA6FF" x="0" y="0" width="112" height="32" rx="2"></rect>
+        <text id="link" font-family="Helvetica-Bold, Helvetica" font-size="16" font-weight="bold" line-spacing="20" fill="#FFFFFF">
+            <tspan x="11.2265625" y="21">View profile</tspan>
+        </text>
+    </g>
+</svg>
