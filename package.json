@@ -55,9 +55,7 @@
     "theme:dev": "yarn workspace @themes/gatsby-theme-aloha run dev",
     "theme:serve": "yarn workspace @themes/gatsby-theme-aloha run serve",
     "theme:clean": "yarn workspace @themes/gatsby-theme-aloha run clean",
-    "theme:test": "yarn workspace @themes/gatsby-theme-aloha run test",
-    "plugin:source:dev": "yarn workspace @plugins/gatsby-aloha-source run dev",
-    "plugin:source:test": "yarn workspace @plugins/gatsby-aloha-source run test"
+    "theme:test": "yarn workspace @themes/gatsby-theme-aloha run test"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.1"
