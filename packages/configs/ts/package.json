@@ -1,0 +1,20 @@
+{
+  "name": "@configs/ts",
+  "version": "0.2.0",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "description": "Typescript configs.",
+  "private": true,
+  "files": [
+    "./build.json",
+    "./react.json",
+    "./jest.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  },
+  "license": "0BSD"
+}
