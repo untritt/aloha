@@ -1,0 +1,23 @@
+{
+  "name": "@configs/jest",
+  "version": "0.2.0",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "description": "Jest config.",
+  "private": true,
+  "files": [
+    "js.js",
+    "ts.js"
+  ],
+  "dependencies": {
+    "@configs/eslint": "*",
+    "@configs/ts": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  },
+  "license": "0BSD"
+}
