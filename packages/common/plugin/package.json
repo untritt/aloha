@@ -1,0 +1,23 @@
+{
+  "name": "@common/plugin",
+  "version": "0.2.0",
+  "description": "Aloha plugin utils and contants.",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "private": true,
+  "files": ["*.js"],
+  "dependencies": {
+    "@configs/eslint": "*",
+    "lodash": "^4.17.20"
+  },
+  "license": "0BSD",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  }
+}
