@@ -1,0 +1,23 @@
+{
+  "name": "@common/type-defs",
+  "version": "0.2.0",
+  "description": "Aloha types and contants.",
+  "author": "Tuyana Dondokova <tuyana.dondokova@gmail.com>",
+  "private": true,
+  "main": "src",
+  "devDependencies": {
+    "@configs/ts": "*",
+    "typescript": "^3.9.7"
+  },
+  "license": "0BSD",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/untritt/aloha"
+  },
+  "bugs": {
+    "url": "https://github.com/untritt/aloha/issues"
+  }
+}

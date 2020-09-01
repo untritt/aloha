@@ -1,0 +1,24 @@
+export declare const EXPERIENCE = "experience";
+export declare const LINKEDIN = "linkedin";
+export declare const TOOLS = "tools";
+export declare const GITHUB = "github";
+export declare const INTERESTS = "interests";
+export declare const TELEGRAM = "telegram";
+export declare const EXPERIENCE_ROUTE: string;
+export declare const LINKEDIN_ROUTE: string;
+export declare const TOOLS_ROUTE: string;
+export declare const GITHUB_ROUTE: string;
+export declare const INTERESTS_ROUTE: string;
+export declare const TELEGRAM_ROUTE: string;
+export declare const SOCIALS: string[];
+export declare const SECTIONS: string[];
+export declare const HEADER_UI = "HEADER";
+export declare const LOGO_UI = "LOGO";
+export declare const ICON_UI = "ICON";
+export declare const PROFILE_UI = "PROFILE";
+export declare const TITLE_UI = "TITLE";
+export declare const LINK_TO_RESOURCE_UI = "LINK_TO_RESOURCE";
+export declare const SECTION_UI = "SECTION";
+export declare const SECTION_LIST_UI = "SECTION_LIST";
+export declare const SECTION_MD_UI = "SECTION_MD";
+//# sourceMappingURL=constants.d.ts.map

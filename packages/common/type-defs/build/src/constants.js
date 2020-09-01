@@ -1,0 +1,28 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SECTION_MD_UI = exports.SECTION_LIST_UI = exports.SECTION_UI = exports.LINK_TO_RESOURCE_UI = exports.TITLE_UI = exports.PROFILE_UI = exports.ICON_UI = exports.LOGO_UI = exports.HEADER_UI = exports.SECTIONS = exports.SOCIALS = exports.TELEGRAM_ROUTE = exports.INTERESTS_ROUTE = exports.GITHUB_ROUTE = exports.TOOLS_ROUTE = exports.LINKEDIN_ROUTE = exports.EXPERIENCE_ROUTE = exports.TELEGRAM = exports.INTERESTS = exports.GITHUB = exports.TOOLS = exports.LINKEDIN = exports.EXPERIENCE = void 0;
+const toRoute = (route) => `/${route}`;
+exports.EXPERIENCE = "experience";
+exports.LINKEDIN = "linkedin";
+exports.TOOLS = "tools";
+exports.GITHUB = "github";
+exports.INTERESTS = "interests";
+exports.TELEGRAM = "telegram";
+exports.EXPERIENCE_ROUTE = toRoute(exports.EXPERIENCE);
+exports.LINKEDIN_ROUTE = toRoute(exports.LINKEDIN);
+exports.TOOLS_ROUTE = toRoute(exports.TOOLS);
+exports.GITHUB_ROUTE = toRoute(exports.GITHUB);
+exports.INTERESTS_ROUTE = toRoute(exports.INTERESTS);
+exports.TELEGRAM_ROUTE = toRoute(exports.TELEGRAM);
+exports.SOCIALS = [exports.LINKEDIN, exports.GITHUB, exports.TELEGRAM];
+exports.SECTIONS = [exports.EXPERIENCE, exports.TOOLS, exports.INTERESTS];
+exports.HEADER_UI = "HEADER";
+exports.LOGO_UI = "LOGO";
+exports.ICON_UI = "ICON";
+exports.PROFILE_UI = "PROFILE";
+exports.TITLE_UI = "TITLE";
+exports.LINK_TO_RESOURCE_UI = "LINK_TO_RESOURCE";
+exports.SECTION_UI = "SECTION";
+exports.SECTION_LIST_UI = "SECTION_LIST";
+exports.SECTION_MD_UI = "SECTION_MD";
+//# sourceMappingURL=constants.js.map
