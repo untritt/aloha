@@ -1,0 +1,5 @@
+- problem solving through technologies and communication
+- process enhancement
+- real world design
+- nature & adventures
+- software development
